@@ -1,2 +1,4 @@
 rootProject.name = 'DSA'
+include 'src:main:ll'
+findProject(':src:main:ll')?.name = 'll'
 
